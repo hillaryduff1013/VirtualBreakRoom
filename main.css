@@ -1,0 +1,35 @@
+/*this code is what's used to style the homepage website*/
+body{
+    <style = "background: url(https://cdn.lifehack.org/wp-content/uploads/2017/01/10094827/relax-05-e1484059717300.jpg)></style>
+    margin:0:
+}
+
+header{ /*this is the box that goes around homepage title*/
+    background:lightskyblue;
+    color:black;
+    padding: 5px 15px 0 15px; /*top right bottom left*/
+}
+
+header h1{ /*this makes the list of subpages inline with the title of homepage*/
+    margin:0;
+    display: inline;
+}
+
+nav ul{ /*this makes the subpage names look nicer*/
+    margin:0;
+    padding: 0 0 0 15px;
+    display: inline;
+}
+
+nav ul li{ 
+    background: black;
+    color:white;
+    display: inline-block;
+    list-style-type:none; /*gets rid of dots from list*/
+    padding:5px 15px;/*top right bottom left */
+    margin:0;     
+}
+
+nav ul li a{
+    color:white;
+}
